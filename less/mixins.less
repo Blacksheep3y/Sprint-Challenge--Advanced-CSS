@@ -1,1 +1,25 @@
 // Mixins Here
+.bordered {
+    border: 1px double #e0e0e0;
+    border-radius: 5px;
+}
+.bgc {
+    background-color: #f4f4f4;
+}
+// Parametric Mixins Here
+.butt0n (@BG, @FontSize, @Pad, @color, @corners, @wif){
+    background-color: @BG;
+    font-size: @FontSize;
+    padding: @Pad;
+    color: @color;
+    border-radius: @corners;
+    width: @wif;
+    text-align: center;
+}
+.flex (@display, @wrap, @justify, @align, @direction){
+    display: @display;
+    flex-wrap: @wrap;
+    justify-content: @justify;
+    align-items: @align;   
+    flex-direction: @direction;
+}

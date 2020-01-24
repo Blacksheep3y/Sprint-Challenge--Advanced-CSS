@@ -1,0 +1,24 @@
+1. What is the difference between an adaptive website and a fully responsive website?
+    A: With An adaptive website widths are still hardcoded at each media query, 
+    and with a Responsive site responsive units are used throughout the site.
+
+2. Describe what it means to be mobile first vs desktop first.
+    A: Designing for mobile first means designing the html/css intended
+    for a mobile width size and utilizing mediaqueries with a min-width.
+    Designing for desktop first means designing the html/css intended for
+    a desktop width size and then utilizing mediaqueries with a max-width.
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+    A: It allows our rem units to scale proportionally for example
+    with an html width of 62.5% and a font-size of 25px. The sizing properties 
+    would be as follows 2.5rem, 2.5em, 250%, etc.
+4. How would you describe preprocessing to someone new to CSS?
+    A: preprocessing is basically the use of a software technology to minimize the 
+    original css into a more robust syntax then later "preprocess" this new css into the index.css file. It
+    allows for multiple files of preprocessing to all converge into one final css file.
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    A: I have to say that I love the use of Parametric mixins because it allows for such dynamic use of 
+    css styles. I would say my least favorite part would be how complicated variables can get and sort of 
+    how interwoven they can be with variables inside variables inside mixins etc. At the same time, I find that
+    versatility really cool too, but things can get confusing if you are not careful.
