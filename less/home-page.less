@@ -73,3 +73,62 @@
     }
   }
 }// home
+
+// MY CODE STARTS HERE
+body {
+  font-weight: 700;
+}
+.btn {
+  .butt0n(#23293B, 2em, 2%, #f4f4f4, 5px, 32%);
+  &:hover {
+    .butt0n(#f4f4f4, 2em, 2%, #23293B, 5px, 32%);
+  }
+}
+.si-div {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+//MOBILE VIEW
+@media @phone {
+  .intro {
+    .hdrimg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .space-images {
+    .sky, .launch {
+      display: none;
+    }
+    .si-div { 
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .home {
+    .walk {
+      flex-direction: column-reverse;
+      .walk-text {
+        width: 100%;
+      }
+      .walk-img {
+        width: 100%;
+        margin-left: 0;
+        img {
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+  .btn {
+    width: 100%;
+    padding: 5%;
+  }
+}
